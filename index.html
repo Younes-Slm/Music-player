@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - music player widget</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="player">
+
+        <div class="player__header">
+
+            <div class="player__img player__img--absolute slider">
+
+                <button class="player__button player__button--absolute--nw playlist">
+
+          <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+
+        </button>
+
+                <button class="player__button player__button--absolute--center play">
+
+          <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+          <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+
+        </button>
+
+                <div class="slider__content">
+
+                    <img class="img slider__img" src="https://harpy.ir/wp-content/uploads/2020/12/New-folder2001281.jpg" alt="cover">
+                    <img class="img slider__img" src="https://popimage.ir/wp-content/uploads/2020/08/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%DA%AF%D9%84-30.jpg" alt="cover">
+                    <img class="img slider__img" src="https://www.jowhareh.com/images/Jowhareh/galleries/medium_328efa28-6c84-405c-83ae-b41d3adbb9b9.webp" alt="cover">
+                    <img class="img slider__img" src="http://files.tanama.ir/img/3099-104/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84.jpg" alt="cover">
+                    <img class="img slider__img" src="http://files.tanama.ir/img/3099-108/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84.jpg" alt="cover">
+                    <img class="img slider__img" src="https://popimage.ir/wp-content/uploads/2021/01/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%D9%85%D8%A7%D9%87-37-1024x1024.jpg" alt="cover">
+                    <img class="img slider__img" src="https://picpro.ir/wp-content/uploads/2021/09/21FFC260-5219-42BA-8F41-08359B127D79-450x493.jpeg" alt="cover">
+
+                </div>
+
+            </div>
+
+            <div class="player__controls">
+
+                <button class="player__button back">
+
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+
+        </button>
+
+                <p class="player__context slider__context">
+
+                    <strong class="slider__name"></strong>
+                    <span class="player__title slider__title"></span>
+
+                </p>
+
+                <button class="player__button next">
+
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+
+        </button>
+
+                <div class="progres">
+
+                    <div class="progres__filled"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <ul class="player__playlist list">
+
+            <li class="player__song">
+
+                <img class="player__img img" src="https://harpy.ir/wp-content/uploads/2020/12/New-folder2001281.jpg" alt="cover">
+
+                <p class="player__context">
+
+                    <b class="player__song-name">no Talk</b>
+                    <span class="flex">
+
+            <span class="player__title">Calm</span>
+                    <span class="player__song-time"></span>
+
+                    </span>
+
+                </p>
+
+                <audio class="audio" src="https://dl.download1music.ir/Music/Without-Words/0bikalam%20download1music.ir%20(1).mp3"></audio>
+
+            </li>
+
+            <li class="player__song">
+
+                <img class="player__img img" src="https://popimage.ir/wp-content/uploads/2020/08/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%DA%AF%D9%84-30.jpg" alt="cover">
+
+                <p class="player__context">
+
+                    <b class="player__song-name">blinding lights</b>
+                    <span class="flex">
+
+            <span class="player__title">Song1</span>
+                    <span class="player__song-time"></span>
+
+                    </span>
+
+                </p>
+
+                <audio class="audio" src="https://dl.download1music.ir/Music/Without-Words/0bikalam%20download1music.ir%20(2).mp3"></audio>
+
+            </li>
+
+            <li class="player__song">
+
+                <img class="player__img img" src="https://www.jowhareh.com/images/Jowhareh/galleries/medium_328efa28-6c84-405c-83ae-b41d3adbb9b9.webp" alt="cover">
+
+                <p class="player__context">
+
+                    <b class="player__song-name">YoHo</b>
+                    <span class="flex">
+
+            <span class="player__title">No Talk w</span>
+                    <span class="player__song-time"></span>
+
+                    </span>
+
+                </p>
+
+                <audio class="audio" src="https://dl.download1music.ir/Music/Without-Words/0bikalam%20download1music.ir%20(3).mp3"></audio>
+
+            </li>
+
+            <li class="player__song">
+
+                <img class="player__img img" src="http://files.tanama.ir/img/3099-104/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84.jpg" alt="cover">
+
+                <p class="player__context">
+
+                    <b class="player__song-name">I'm</b>
+                    <span class="flex">
+
+            <span class="player__title">Songg</span>
+                    <span class="player__song-time"></span>
+
+                    </span>
+
+                </p>
+
+                <audio class="audio" src="https://dl.download1music.ir/Music/Without-Words/0bikalam%20download1music.ir%20(4).mp3"></audio>
+
+            </li>
+
+            <li class="player__song">
+
+                <img class="player__img img" src="http://files.tanama.ir/img/3099-108/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84.jpg" alt="cover">
+
+                <p class="player__context ">
+
+                    <b class="player__song-name">Y</b>
+                    <span class="flex">
+
+            <span class="player__title">Noo</span>
+                    <span class="player__song-time"></span>
+
+                    </span>
+
+                </p>
+
+                <audio class="audio" src="https://dl.download1music.ir/Music/Without-Words/0bikalam%20download1music.ir%20(5).mp3"></audio>
+
+            </li>
+
+            <li class="player__song">
+
+                <img class="player__img img" src="https://popimage.ir/wp-content/uploads/2021/01/%D8%B9%DA%A9%D8%B3-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%D9%85%D8%A7%D9%87-37-1024x1024.jpg" alt="cover">
+
+                <p class="player__context">
+
+                    <b class="player__song-name">G</b>
+                    <span class="flex">
+
+            <span class="player__title">N Talk</span>
+                    <span class="player__song-time"></span>
+
+                    </span>
+
+                </p>
+
+                <audio class="audio" src="https://dl.download1music.ir/Music/Without-Words/0bikalam%20download1music.ir%20(8).mp3"></audio>
+
+            </li>
+
+            <li class="player__song">
+
+                <img class="player__img img" src="https://picpro.ir/wp-content/uploads/2021/09/21FFC260-5219-42BA-8F41-08359B127D79-450x493.jpeg" alt="cover">
+
+                <p class="player__context ">
+
+                    <b class="player__song-name">F<span class="uppercase">4am</span> remix</b>
+                    <span class="flex">
+
+            <span class="player__title">Talk N</span>
+                    <span class="player__song-time"></span>
+
+                    </span>
+
+                </p>
+
+                <audio class="audio" src="https://dl.download1music.ir/Music/Without-Words/Affet.mp3"></audio>
+
+            </li>
+
+        </ul>
+
+    </div>
+    <!-- partial -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
